@@ -55,7 +55,7 @@ By following these steps below, create a file like this Users section of the dat
 * Please clone this repository
 
 ```
-git clone https://github.com/tess-ss/recon-ninja.git
+git clone https://github.com/VIPHACKER100/recon-ninja.git
 ```
 
 * much wow, would you look at that? The main folder is called 'recon-ninja/' and it even comes with two bonus folders inside: 'Frontend/' and 'Backend/'. How convenient!"
@@ -143,5 +143,5 @@ Feel free to use my Digital Ocean reference link to set up a VPS, if you're inte
 * **[viphacker100](https://github.com/viphacker100)** - *Security patches, Vite migration, and Dockerization*
 
 ## Useful?
-
+## tess-ss [buymeacoffee]
 <a href="https://www.buymeacoffee.com/realtess" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
