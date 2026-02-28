@@ -1,6 +1,5 @@
 <h1>recon-ninja</h1>
 
-
 <p align="center">
 </p>
 
@@ -18,17 +17,16 @@ Overall, your tool provides an efficient and effective way to gather and store r
 
 ![NexSnap-Mar-07-2023_07-47-18_AM](https://user-images.githubusercontent.com/65326024/223307471-8208c704-2efe-42ae-9501-49c660816a5c.png)
 
+### PRE-REQUIREMENTS
 
-
-### PRE-REQUIREMENTS:
 Please make sure, you have GO lang Installed, Please visit [https://go.dev/doc/install](https://go.dev/doc/install) for reference.
 
 Please make sure to install [Nuclei](https://github.com/projectdiscovery/nuclei) & [HTTPX](https://github.com/projectdiscovery/httpx)
 
-### To get started, please follow these steps:
+### To get started, please follow these steps
 
-Go to https://www.mongodb.com/atlas/database and create an account. You can choose between a free or paid account based on your needs.
-Once you've created your account, you may find it helpful to install the UI App, MongoDB Compass, from https://www.mongodb.com/try/download/compass. This tool can help you manage your database more easily.
+Go to <https://www.mongodb.com/atlas/database> and create an account. You can choose between a free or paid account based on your needs.
+Once you've created your account, you may find it helpful to install the UI App, MongoDB Compass, from <https://www.mongodb.com/try/download/compass>. This tool can help you manage your database more easily.
 
 After setting up the database, please save the database connection URL as we will need it later for this tool.
 
@@ -39,6 +37,7 @@ Once the server is running, the database will automatically create a test databa
 Navigate to the users section of the database and add the desired username and password to access the your Recon Ninja as by default it comes with a login page which requires username and password.
 
 By following these steps below, create a file like this Users section of the database.
+
 ```bash
 /** 
 * Paste one or more documents here
@@ -49,7 +48,6 @@ By following these steps below, create a file like this Users section of the dat
 }
 ```
 
-
 ## Installation
 
 * Please make sure, your node version is updated to the latest.
@@ -59,6 +57,7 @@ By following these steps below, create a file like this Users section of the dat
 ```
 git clone https://github.com/tess-ss/recon-ninja.git
 ```
+
 * much wow, would you look at that? The main folder is called 'recon-ninja/' and it even comes with two bonus folders inside: 'Frontend/' and 'Backend/'. How convenient!"
 
 * Well, well, well, it's time for the exciting part! Move to 'cd /recon-ninja' and check if you have hit the jackpot by using 'ls'. You should see the magical 'Frontend/' and 'Backend/' folders waiting for you inside
@@ -76,6 +75,7 @@ npm install
 ```
 
 Change the backend api path to your server's ip in `src/axiosConfig.js`
+
 ```
 axios.defaults.baseURL = 'http://ip:port/';
 ```
@@ -86,8 +86,7 @@ Make a production build of the react app:
 npm run build
 ```
 
-
-* Now, move to `/Backend` and do the following. Like cd /Backend and now do the following which is 
+* Now, move to `/Backend` and do the following. Like cd /Backend and now do the following which is
 
 Install the dependencies:
 
@@ -102,6 +101,7 @@ mv ../Frontend/build .
 ```
 
 Apply the following:
+
 * Assign mongodb URI in `db.js` in function `mongoose.connect`
 * Change the constant `discordWebhookUrl` in `app.js`
 
@@ -128,22 +128,19 @@ Start the app:
 ```
 pm2 start app.js
 ```
+
 The app would be running on port `3000` (you could change the port number if you want to by changing the port number on `app.listen` function in `app.js`)
 
-
-Now, Please visit http://YOUR-VPS-IPS:3000 and you will see Recon Ninja up and running. Like this
-
-
-
+Now, Please visit <http://YOUR-VPS-IPS:3000> and you will see Recon Ninja up and running. Like this
 
 Feel free to use my Digital Ocean reference link to set up a VPS, if you're interested
 
-
-
-
-
 [![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=b837565c0b6b&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 
+## Contributors
+
+* **[tess-ss](https://github.com/tess-ss)** - *Original Author*
+* **[viphacker100](https://github.com/viphacker100)** - *Security patches, Vite migration, and Dockerization*
 
 ## Useful?
 
